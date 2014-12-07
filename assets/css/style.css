@@ -1,0 +1,23 @@
+p {
+  font-size: 15px;
+}
+
+#logo {
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 32px;
+  color: #aaa;
+}
+
+.entries {
+  font-size: 18px;
+}
+
+h2, h3, h4 {
+  padding-bottom: 4px;
+  border-bottom: 1px dashed #aaa;
+}
+
+ul {
+  font-size: 15px;
+}
