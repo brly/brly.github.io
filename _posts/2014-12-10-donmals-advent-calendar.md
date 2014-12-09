@@ -31,7 +31,7 @@ tags: [Donmaru]
 
 が, 実際には持ち帰り専門店だ.
 
-<img src="{% asset_path kiyosumi.png %}" width="320px">
+<img src="/assets/posts/donmals-advent-calendar/kiyosumi.png" width="320px">
 
 ここで紹介するフローはテイクアウトのみになることを予め断っておく.
 
@@ -51,7 +51,7 @@ tags: [Donmaru]
 しかし, 丼丸の店内に入ったことのある人ならば分かるかと思うが,
 丼丸の店舗では店内の壁や,あるいは店の外の壁を使って, 店舗で取り扱っている「丼」を表している.
 
-<img src="{% asset_path menu.png %}">
+![](/assets/posts/donmals-advent-calendar/menu.png)
 
 おそらく, すべてのメニュー(=丼)を把握するのは, 初めて訪れた人には困難であり,
 レジの人に「ご注文はお決まりですか」と聞かれてしまったり,
