@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 連休
-tags: [Anime, Game]
+tags: [Anime, Game, Ruby]
 ---
 
 会社の制度を使って連休を取れることになったが、特に予定も入れなかったので
@@ -77,7 +77,33 @@ CPUの創りかたを読み始めた。
 CPUの創りかたを読み進める。チャタリングとか、響きが懐かしい単語が沢山出てくる。
 今の所読んだ前半部分は基本的に大学の授業でやったようなことがつらつら書かれているのだけれど、
 よりカジュアルな文体で描かれているので読みやすい。
+[このJavaアプレットのサイト](http://www.falstad.com/circuit/)で本に出てくる回路を組んでみたりしてみる。
+
+<img src="/assets/posts/2015-02-09/circuit.png" width="640px">
+
+- 参考文献
+  - [グランドのナゾ](http://startelc.com/elc/elc1_nElc.html)
+
+他のWebアプリケーション的なのがこれ以外にもいくつかあるけどあんまりいけてない。気がする。
 
 rubyのプログラムを進捗させる。250行くらい。
 
+- 参考文献
+  - [SMF (Standard MIDI Files) の構造](http://www2s.biglobe.ne.jp/~yyagi/material/smfspec.html)
+  - [ＭＩＤＩ「超」入門(データ編)](http://magarchive.halfmoon.jp/nifty/midi/vvesymidi2.html)
+  - [MIDIとWAVE](http://ww2.wt.tiki.ne.jp/~nk_sounds/mid_wav.htm)
+  - [MIDIファイル(SMF)の基礎知識](http://hp.vector.co.jp/authors/VA029289/midi1.html)
+  - [15.11. curses — 文字セル表示のための端末操作](http://docs.python.jp/2/library/curses.html)
+  - [eclubb/ncurses-ruby](https://github.com/eclubb/ncurses-ruby)
+
 #### 2/13
+
+起きたらなんか首が痛かったので何をするにもあんまりやる気が出なかった。
+
+だらだらして[フリーゲーム](http://www.famitsu.com/freegame/2000/0058.html)してたら一日が終わった。
+
+夜にボドゲに参加してカタンを2回した。勝てなかったけど面白かった。
+
+#### 2/14
+
+#### 2/15
