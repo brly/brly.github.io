@@ -19,6 +19,10 @@ h2, h3, h4 {
   border-bottom: 1px dashed #aaa;
 }
 
+h3 {
+  font-size: 14px;
+}
+
 ul, ol {
   font-size: 15px;
 }
