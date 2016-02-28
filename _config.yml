@@ -1,4 +1,4 @@
-highlighter: pygments
+highlighter: rouge
 name: brly.github.io
 description: A @brly__ log.
 url: http://brly.github.io
