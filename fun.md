@@ -5,4 +5,5 @@ layout: layout
 
 - idolm@ster
 - kill me baby
+- yuruyuri
 - ...
