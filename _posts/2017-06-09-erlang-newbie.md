@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Moving
+title: erlang newbie
 tags: [Erlang]
 ---
 
