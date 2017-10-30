@@ -1,7 +1,5 @@
-markdown: redcarpet
 name: brly.github.io
 description: A @brly__ log.
 url: http://brly.github.io
 exclude: [vendor]
-redcarpet:
-    extensions: ["no_intra_emphasis", "tables", "autolink", "strikethrough", "with_toc_data"]
+

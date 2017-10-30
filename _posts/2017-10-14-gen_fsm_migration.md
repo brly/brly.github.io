@@ -8,11 +8,11 @@ tags: [Erlang]
 
 とあるモジュールが gen_fsm で実装されており OTP20 では deprecated なため, 将来のことを考えて移行する必要が出てきた.
 
-gen_statem とかは http://erlang.org/doc/design_principles/statem.html にあるような雰囲気で, ある状態に対してイベントが発生するとそれに対するアクションと次の状態が得られるやつのようで.
+gen_statem とかは [http://erlang.org/doc/design_principles/statem.html](http://erlang.org/doc/design_principles/statem.html) にあるような雰囲気で, ある状態に対してイベントが発生するとそれに対するアクションと次の状態が得られるやつのようで.
 
 例として gen_fsm でとある状態遷移のやつを作ったあとに gen_statem に移す場合の例を書いてみる.
 
-まぁ公式の http://erlang.org/doc/man/gen_fsm.html にも migration to statem みたいな感じで移行例みたいなのがあって, それに準じているのだけれど.
+まぁ公式の [http://erlang.org/doc/man/gen_fsm.html](http://erlang.org/doc/man/gen_fsm.html) にも migration to statem みたいな感じで移行例みたいなのがあって, それに準じているのだけれど.
 
 #### モデル
 
@@ -22,7 +22,7 @@ gen_statem とかは http://erlang.org/doc/design_principles/statem.html にあ�
 
 #### gen_fsm
 
-https://github.com/brly/blog-coding/blob/master/2017/10-14-gen_statem/sw_fsm.erl
+[https://github.com/brly/blog-coding/blob/master/2017/10-14-gen_statem/sw_fsm.erl](https://github.com/brly/blog-coding/blob/master/2017/10-14-gen_statem/sw_fsm.erl)
 
 まず, 簡単にモジュールの説明を書くと start_link/0 で起動した後に push_hoge でイベントを起こすようにしていて,
 push_hoge メソッドが状態遷移図の "Push start" とかに相当している.
@@ -38,7 +38,7 @@ gen_fsm ではイベントに対して同期的と非同期的に対応する場
 
 #### gen_statem
 
-マイグレーションする. https://github.com/brly/blog-coding/blob/master/2017/10-14-gen_statem/sw_statem.erl
+マイグレーションする. [https://github.com/brly/blog-coding/blob/master/2017/10-14-gen_statem/sw_statem.erl](https://github.com/brly/blog-coding/blob/master/2017/10-14-gen_statem/sw_statem.erl)
 
 gen_statem に行くと, 先ほどまであった Module:StateName/2 やら Module:handle_event/3, Module:handle_sync_event/4 が消えていて, さらによくわからないが callback_mode/0 が増えており, そこで指定するやりようによっては全て "Module:StateName/3 で処理するように." という感じになっている.
 
