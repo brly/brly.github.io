@@ -3,7 +3,9 @@ layout: layout
 ---
 
 {% for item in page.tags %}
-    <li class="btn btn-primary">{{ item }}</li>
+  <span class="mdc-chip mdc-ripple-upgraded">
+    <div class="mdc-chip__text">{{ item }}</div>
+  </span>
 {% endfor %}
 
 <header id="post">

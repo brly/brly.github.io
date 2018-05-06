@@ -1,0 +1,35 @@
+p {
+  font-size: 15px;
+  color: #111;
+}
+
+#top_logo {
+  color: #eee;
+}
+
+.entries {
+  font-size: 18px;
+}
+
+h2, h3, h4 {
+  padding-bottom: 4px;
+  border-bottom: 1px dashed #aaa;
+}
+
+h3 {
+  font-size: 14px;
+}
+
+.toolbar_text {
+  color: #eee;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a.toolbar_text:hover {
+  text-decoration: none;
+}
+
+.meta_font {
+  font-size: 20px
+}
