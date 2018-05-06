@@ -2,4 +2,5 @@ name: brly.github.io
 description: A @brly__ log.
 url: http://brly.github.io
 exclude: [vendor]
-
+paginate: 5
+paginate_path: "/blog/page:num/"
