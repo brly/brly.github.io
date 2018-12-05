@@ -20,6 +20,10 @@ h3 {
   font-size: 14px;
 }
 
+a.pagenated_post_title {
+  text-decoration: none;
+}
+
 .toolbar_text {
   color: #eee;
   font-weight: bold;
