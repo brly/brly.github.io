@@ -4,3 +4,4 @@ url: http://brly.github.io
 exclude: [vendor]
 paginate: 5
 paginate_path: "/blog/page:num/"
+theme: minima

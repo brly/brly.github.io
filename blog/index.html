@@ -9,7 +9,9 @@ title: Blog
 {% for post in paginator.posts %}
 <div class="">
   <div class="">
-    <a href="{{ post.url }}" style="font-size: 24px"> {{ post.date | date_to_long_string }} : {{ post.title }} </a>
+    <h2>
+      <a class="pagenated_post_title" href="{{ post.url }}" style="font-size: 24px"> {{ post.date | date_to_long_string }} : {{ post.title }} </a>
+    </h2>
 
     {% for tag in post.tags %}
       <span class="mdc-chip mdc-ripple-upgraded">
